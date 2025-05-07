@@ -2,11 +2,11 @@
   "rewrites": [
     {
       "source": "/support/:path(.*)",
-      "destination": "/blog/:path"
+      "destination": "/posts/:path"
     },
     {
       "source": "/support",
-      "destination": "/blog/cms"
+      "destination": "/posts/cms"
     }
   ]
 }
