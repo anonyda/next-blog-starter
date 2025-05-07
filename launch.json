@@ -2,11 +2,11 @@
   "rewrites": [
     {
       "source": "/support/:path(.*)",
-      "destination": "https://support-portal-contentstack.dm-uat.unifyapps.com/support/:path"
+      "destination": "/blog/:path"
     },
     {
       "source": "/support",
-      "destination": "https://support-portal-contentstack.dm-uat.unifyapps.com/support"
+      "destination": "/blog/cms"
     }
   ]
 }
